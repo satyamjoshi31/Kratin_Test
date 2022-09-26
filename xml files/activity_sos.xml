@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DF40C"
+    tools:context=".SOS">
+
+    <TextView
+        android:id="@+id/doctor1"
+        android:layout_width="358dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="112dp"
+        android:text="Dr. Joseph - 8355475688"
+        android:textColor="#880C9E"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/doctor2"
+        android:layout_width="338dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="40dp"
+        android:text="Dr. Shukla - 6875585745"
+        android:textColor="#880C9E"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor1" />
+
+    <TextView
+        android:id="@+id/ambulance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Ambulance - 8796876548"
+        android:textColor="#880C9E"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

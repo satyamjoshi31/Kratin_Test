@@ -18,3 +18,7 @@ Reports -
 What is next -
           This button in the app wll give all the medicines to be taken on a particular day along with healthy breakfast, lunch and dinner suggestions as per the major 
           health condition.(I have added a sample routine which can be replaced with real routine and medicines).
+          
+          I have also provided the apk file that can be installed immediately on an android phone.
+          
+          Thank You.
